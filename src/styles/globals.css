@@ -63,10 +63,17 @@ header {
 header::after {
   content: "";
   position: absolute;
-  bottom: -2.25rem;
-  left: 0;
+  bottom: -0.2rem;
+  left: 10.31rem;
   width: 69.375rem;
   height: 0.0625rem;
   background-color: #fff;
   opacity: 0.2;
+}
+
+/* Index */
+.home-details {
+  background: url("/images/home/desktop/image-hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
