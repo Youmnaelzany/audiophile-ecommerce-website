@@ -16,7 +16,11 @@ module.exports = {
         "2xl": "1400px",
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "ZX7-SPEAKER": "url('/images/home/desktop/image-speaker-zx7.jpg')",
+      },
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
